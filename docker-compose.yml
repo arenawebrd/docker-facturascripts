@@ -15,7 +15,7 @@ services:
     image: facturascripts/facturascripts:latest
     restart: always
     ports:
-      - 80:80
+      - 82:82
     volumes:
       - ./facturascripts:/var/www/html
 
@@ -23,4 +23,4 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8080:8080
+      - 8282:8282
